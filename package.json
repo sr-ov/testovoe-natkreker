@@ -1,0 +1,30 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "nuxt dev",
+		"build": "nuxt build",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"@nuxtjs/eslint-config-typescript": "^10.0.0",
+		"@types/lodash.isempty": "^4.4.7",
+		"@types/lodash.orderby": "^4.6.7",
+		"@typescript-eslint/eslint-plugin": "^5.31.0",
+		"@typescript-eslint/parser": "^5.31.0",
+		"eslint": "^8.20.0",
+		"eslint-plugin-vue": "^9.3.0",
+		"nuxt": "3.0.0-rc.8",
+		"sass": "^1.54.7",
+		"typescript": "^4.7.4",
+		"vite-plugin-eslint": "^1.7.0",
+		"vite-svg-loader": "^3.5.0"
+	},
+	"dependencies": {
+		"@vueuse/nuxt": "^9.1.1",
+		"axios": "^0.27.2",
+		"lodash.isempty": "^4.4.0",
+		"lodash.orderby": "^4.6.0"
+	}
+}

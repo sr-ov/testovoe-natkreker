@@ -1,0 +1,50 @@
+:root {
+	--ff-prim: 'Roboto';
+	--c-red: #fa2828;
+	--c-red-light: #ff5252;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: var(--ff-prim), -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a,
+button {
+	color: inherit;
+	text-decoration: none;
+	padding: none;
+	border: none;
+	background-color: transparent;
+}
+
+.main {
+	padding-top: 40px;
+	background-color: #363232;
+}
+
+.container {
+	max-width: 1430px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+	clip: rect(0 0 0 0);
+}
