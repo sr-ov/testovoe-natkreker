@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ArrowLeftIIcon from '@/assets/icons/arrow-left.svg'
+import ArrowLeftIcon from '@/assets/icons/arrow-left.svg'
 
 const movie = await useMovie()
 </script>
@@ -9,7 +9,7 @@ const movie = await useMovie()
 		<div class="container">
 			<UiTopWrapper>
 				<NuxtLink :class="st.link" to="/">
-					<ArrowLeftIIcon /> Назад к списку
+					<ArrowLeftIcon /> Назад к списку
 				</NuxtLink>
 			</UiTopWrapper>
 			<MovieCard
